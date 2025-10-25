@@ -6,8 +6,10 @@ pydantic==2.7.1
 python-dotenv==1.0.1
 requests==2.32.3
 beautifulsoup4==4.12.3
+
+# LangChain ecosystem (tested compatible)
 langchain==0.1.16
-langchain-core==0.1.42
+langchain-core==0.1.43
 langchain-community==0.0.33
 langchain-google-genai==0.0.11
 google-generativeai==0.7.0
