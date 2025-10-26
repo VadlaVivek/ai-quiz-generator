@@ -1,1 +1,90 @@
 
+ tested-urls 
+
+# URL:
+- https://en.wikipedia.org/wiki/Kakatiya_dynasty
+
+{
+  "title": "Kakatiya Dynasty",
+  "topic": "Medieval South Indian Kingdoms",
+  "questions": [
+    {
+      "question": "Where was the Kakatiya dynasty primarily based?",
+      "options": ["Warangal", "Madurai", "Kanchipuram", "Hampi"],
+      "answer": "Warangal",
+      "explanation": "The Kakatiyas ruled from Warangal in present-day Telangana, making it their capital."
+    },
+    {
+      "question": "Who was the most prominent ruler of the Kakatiya dynasty?",
+      "options": ["Prataparudra II", "Rudrama Devi", "Ganapati Deva", "Krishna Deva Raya"],
+      "answer": "Ganapati Deva",
+      "explanation": "Ganapati Deva was one of the most powerful Kakatiya rulers who expanded the empire significantly."
+    },
+    {
+      "question": "Which famous queen ruled the Kakatiya dynasty?",
+      "options": ["Rani Rudrama Devi", "Ahilyabai Holkar", "Raziyya Sultana", "Durgavati"],
+      "answer": "Rani Rudrama Devi",
+      "explanation": "Rani Rudrama Devi was one of the few female monarchs in Indian history, known for her military leadership."
+    },
+    {
+      "question": "Which empire defeated the Kakatiyas and ended their rule?",
+      "options": ["Delhi Sultanate", "Cholas", "Pandyas", "Vijayanagara Empire"],
+      "answer": "Delhi Sultanate",
+      "explanation": "The Delhi Sultanate under Alauddin Khalji's general Malik Kafur defeated the Kakatiyas in 1323 CE."
+    },
+    {
+      "question": "Which architectural marvel is associated with the Kakatiya dynasty?",
+      "options": ["Thousand Pillar Temple", "Meenakshi Temple", "Brihadeeswarar Temple", "Hampi Temples"],
+      "answer": "Thousand Pillar Temple",
+      "explanation": "The Thousand Pillar Temple in Hanamakonda, dedicated to Shiva, Vishnu, and Surya, is a prime example of Kakatiya architecture."
+    }
+  ]
+}
+
+
+
+# URL:
+- https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe
+
+# JSON API OUTPUT:
+
+{
+  "title": "Marvel Cinematic Universe",
+  "topic": "Marvel Superhero Films",
+  "questions": [
+    {
+      "question": "Which studio created the Marvel Cinematic Universe (MCU)?",
+      "options": ["Warner Bros.", "Marvel Studios", "DC Films", "Universal Pictures"],
+      "answer": "Marvel Studios",
+      "explanation": "The MCU was produced by Marvel Studios, which is a subsidiary of Walt Disney Studios."
+    },
+    {
+      "question": "What was the first film released in the Marvel Cinematic Universe?",
+      "options": ["Iron Man", "The Incredible Hulk", "Captain America: The First Avenger", "Thor"],
+      "answer": "Iron Man",
+      "explanation": "Iron Man (2008) was the first MCU film and launched the interconnected franchise."
+    },
+    {
+      "question": "Who portrays Tony Stark in the MCU?",
+      "options": ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth"],
+      "answer": "Robert Downey Jr.",
+      "explanation": "Robert Downey Jr. plays Tony Stark, also known as Iron Man, across multiple MCU films."
+    },
+    {
+      "question": "What is the fictional organization that oversees superheroes in the MCU?",
+      "options": ["S.H.I.E.L.D.", "A.R.G.U.S.", "H.Y.D.R.A.", "Stark Industries"],
+      "answer": "S.H.I.E.L.D.",
+      "explanation": "S.H.I.E.L.D. (Strategic Homeland Intervention, Enforcement and Logistics Division) manages superhero operations."
+    },
+    {
+      "question": "Which film marked the beginning of the 'Infinity Saga' storyline?",
+      "options": ["Avengers: Infinity War", "The Avengers", "Iron Man", "Doctor Strange"],
+      "answer": "Iron Man",
+      "explanation": "The Infinity Saga begins with Iron Man (2008) and ends with Avengers: Endgame (2019)."
+    }
+  ]
+}
+
+
+
+- https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe
