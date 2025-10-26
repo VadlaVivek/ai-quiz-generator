@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE || "http://127.0.0.1:8000";
+const API_BASE = import.meta.env.VITE_BACKEND_URL;
 
 export async function generateQuiz(url) {
   const res = await fetch(`${API_BASE}/generate_quiz`, {
