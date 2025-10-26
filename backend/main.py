@@ -20,6 +20,10 @@ app.add_middleware(
 class URLInput(BaseModel):
     url: str
 
+@app.get("/")
+def read_root():
+    return {"message": "AI Quiz Generator Backend is Live 🚀"}
+
 @app.post("/generate_quiz")
 def create_quiz(data: URLInput):
     db = SessionLocal()
