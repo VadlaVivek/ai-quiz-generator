@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_BACKEND_URL;
+const API_BASE = import.meta.env.https://ai-quiz-generator-b9ii.onrender.com;
 
 export async function generateQuiz(url) {
   const res = await fetch(`${API_BASE}/generate_quiz`, {
