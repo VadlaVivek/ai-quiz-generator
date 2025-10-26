@@ -13,8 +13,3 @@ langchain-core==0.1.43
 langchain-community==0.0.33
 langchain-google-genai==0.0.11
 google-generativeai==0.4.1
-<<<<<<< HEAD
-google-generativeai==0.7.0
-=======
-google-generativeai==0.4.1
->>>>>>> origin/main
