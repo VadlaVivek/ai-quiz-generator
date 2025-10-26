@@ -1,16 +1,11 @@
---only-binary=:all:
---prefer-binary
-
 fastapi==0.110.0
 uvicorn==0.30.1
 sqlalchemy==2.0.29
-psycopg2-binary==2.9.11
+psycopg2-binary==2.9.9
 pydantic==2.7.1
-pydantic-core==2.18.2
 python-dotenv==1.0.1
 requests==2.32.3
 beautifulsoup4==4.12.3
-protobuf==4.25.3
 
 # LangChain ecosystem
 langchain==0.1.16
