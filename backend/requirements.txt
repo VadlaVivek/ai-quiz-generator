@@ -1,15 +1,18 @@
 fastapi==0.110.0
 uvicorn==0.30.1
 sqlalchemy==2.0.29
-psycopg2-binary==2.9.9
-pydantic==2.7.1
+psycopg2-binary==2.9.11
 python-dotenv==1.0.1
 requests==2.32.3
 beautifulsoup4==4.12.3
+protobuf==4.25.3
 
-# LangChain ecosystem
+# LangChain ecosystem (stable combo)
 langchain==0.1.16
 langchain-core==0.1.43
 langchain-community==0.0.33
 langchain-google-genai==0.0.11
 google-generativeai==0.4.1
+
+# ✅ Pydantic v1 — no Rust, safe for Render
+pydantic==1.10.13
