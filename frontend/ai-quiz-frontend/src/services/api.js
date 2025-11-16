@@ -21,3 +21,11 @@ export async function getQuiz(id) {
   if (!res.ok) throw new Error("Quiz not found");
   return res.json();
 }
+
+export async function deleteQuiz(id) {
+  const res = await fetch(`${API_BASE}/quiz/${id}`, {
+    method: "DELETE",
+  });
+  if (!res.ok) throw new Error(await res.text());
+  return res.json();
+}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getHistory, getQuiz } from "../services/api";
+import { getHistory, getQuiz, deleteQuiz } from "../services/api";
 import Modal from "../components/Modal";
 import QuizDisplay from "../components/QuizDisplay";
 
@@ -7,6 +7,7 @@ export default function HistoryTab() {
   const [history, setHistory] = useState([]);
   const [selectedQuiz, setSelectedQuiz] = useState(null);
   const [showModal, setShowModal] = useState(false);
+  const [deleting, setDeleting] = useState(null);
 
   useEffect(() => {
     (async () => {
@@ -19,6 +20,24 @@ export default function HistoryTab() {
     const quiz = await getQuiz(id);
     setSelectedQuiz(quiz.quiz);
     setShowModal(true);
+  }
+
+  async function handleDelete(id, event) {
+    event.stopPropagation(); // Prevent row click
+    if (!window.confirm("Are you sure you want to delete this quiz?")) {
+      return;
+    }
+    
+    setDeleting(id);
+    try {
+      await deleteQuiz(id);
+      // Remove from local state
+      setHistory(history.filter(h => h.id !== id));
+    } catch (error) {
+      alert("Failed to delete quiz: " + error.message);
+    } finally {
+      setDeleting(null);
+    }
   }
 
   return (
@@ -56,15 +75,23 @@ export default function HistoryTab() {
                 >
                   View
                 </button>
+                <button
+                  onClick={(e) => handleDelete(h.id, e)}
+                  disabled={deleting === h.id}
+                  className="bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600 ml-2 disabled:opacity-50"
+                >
+                  {deleting === h.id ? "Deleting..." : "Delete"}
+                </button>
               </td>
             </tr>
           ))}
         </tbody>
       </table>
-
-      <Modal show={showModal} onClose={() => setShowModal(false)}>
-        {selectedQuiz && <QuizDisplay quiz={selectedQuiz} />}
-      </Modal>
+      {showModal && selectedQuiz && (
+        <Modal onClose={() => setShowModal(false)}>
+          <QuizDisplay quiz={selectedQuiz} />
+        </Modal>
+      )}
     </div>
   );
 }

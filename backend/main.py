@@ -77,3 +77,19 @@ def get_quiz(quiz_id: int):
         "date_generated": q.date_generated.isoformat(),
         "quiz": json.loads(q.full_quiz_data)
     }
+
+@app.delete("/quiz/{quiz_id}")
+def delete_quiz(quiz_id: int):
+    db = SessionLocal()
+    try:
+        quiz = db.query(Quiz).filter(Quiz.id == quiz_id).first()
+        if not quiz:
+            raise HTTPException(status_code=404, detail="Quiz not found")
+        db.delete(quiz)
+        db.commit()
+        return {"message": "Quiz deleted successfully", "id": quiz_id}
+    except Exception as e:
+        db.rollback()
+        raise HTTPException(status_code=500, detail=str(e))
+    finally:
+        db.close()
