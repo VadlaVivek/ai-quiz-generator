@@ -15,4 +15,4 @@ langchain-google-genai==0.0.11
 google-generativeai==0.4.1
 
 # ✅ Pydantic v1 — no Rust, safe for Render
-pydantic==1.10.13
+pydantic==1.11.13
