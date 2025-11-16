@@ -2,89 +2,165 @@
  tested-urls 
 
 # URL:
-- https://en.wikipedia.org/wiki/Kakatiya_dynasty
 
-{
-  "title": "Kakatiya Dynasty",
-  "topic": "Medieval South Indian Kingdoms",
-  "questions": [
+- https://en.wikipedia.org/wiki/Neural_network_(machine_learning)
+
     {
-      "question": "Where was the Kakatiya dynasty primarily based?",
-      "options": ["Warangal", "Madurai", "Kanchipuram", "Hampi"],
-      "answer": "Warangal",
-      "explanation": "The Kakatiyas ruled from Warangal in present-day Telangana, making it their capital."
+      "id": 1,
+      "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+      "title": "Neural network (machine learning)",
+      "date_generated": "2025-11-16T20:00:00Z",
+      "quiz": {
+        "summary": "An artificial neural network (ANN) is a computational model inspired by biological neural networks, consisting of interconnected artificial neurons organized into layers. These networks learn from data by adjusting connection weights through processes like backpropagation, aiming to minimize the difference between predicted and actual outputs. ANNs have evolved significantly, from early perceptrons to modern deep learning architectures like CNNs, RNNs, and Transformers, finding widespread applications in fields such as image processing, natural language processing, finance, and medicine, despite challenges like interpretability and computational demands.",
+        "questions": [
+          {
+            "question": "What are the interconnected units or nodes in an artificial neural network called?",
+            "type": "multiple_choice",
+            "options": [
+              "Synapses",
+              "Axons",
+              "Artificial neurons",
+              "Dendrites"
+            ],
+            "correct_answer": "Artificial neurons",
+            "explanation": "The article states, 'A neural network consists of connected units or nodes called artificial neurons, which loosely model the neurons in the brain.'"
+          },
+          {
+            "question": "Name the three typical types of layers found in a deep neural network, in the order signals travel through them.",
+            "type": "short_answer",
+            "correct_answer": "Input layer, hidden layers, output layer",
+            "explanation": "The article states, 'Signals travel from the first layer (the input layer) to the last layer (the output layer), possibly passing through multiple intermediate layers (hidden layers).'"
+          },
+          {
+            "question": "What is the primary purpose of 'backpropagation' in training neural networks?",
+            "type": "multiple_choice",
+            "options": [
+              "To define the network's architecture",
+              "To adjust connection weights to compensate for errors",
+              "To generate new training data",
+              "To determine the initial bias term"
+            ],
+            "correct_answer": "To adjust connection weights to compensate for errors",
+            "explanation": "The article states, 'Backpropagation is a method used to adjust the connection weights to compensate for each error found during learning.'"
+          },
+          {
+            "question": "Who described the perceptron in 1958, one of the first implemented artificial neural networks?",
+            "type": "short_answer",
+            "correct_answer": "Frank Rosenblatt",
+            "explanation": "The article mentions, 'In 1958, psychologist Frank Rosenblatt described the perceptron, one of the first implemented artificial neural networks...'"
+          },
+          {
+            "question": "A network is typically called a deep neural network if it has at least one hidden layer.",
+            "type": "true_false",
+            "correct_answer": "False",
+            "explanation": "The article states, 'A network is typically called a deep neural network if it has at least two hidden layers.'"
+          },
+          {
+            "question": "List the three main learning paradigms into which machine learning is commonly separated.",
+            "type": "short_answer",
+            "correct_answer": "Supervised learning, unsupervised learning, reinforcement learning",
+            "explanation": "The article states, 'Machine learning is commonly separated into three main learning paradigms, supervised learning, unsupervised learning and reinforcement learning.'"
+          },
+          {
+            "question": "Which activation function, introduced by Kunihiko Fukushima in 1969, has become the most popular for deep learning?",
+            "type": "short_answer",
+            "correct_answer": "ReLU (rectified linear unit)",
+            "explanation": "The article states, 'In 1969, Kunihiko Fukushima introduced the ReLU (rectified linear unit) activation function. The rectifier has become the most popular activation function for deep learning.'"
+          },
+          {
+            "question": "Which modern large language models, mentioned in the article, utilize the Transformer architecture?",
+            "type": "multiple_choice",
+            "options": [
+              "LeNet-5",
+              "AlexNet",
+              "ChatGPT, GPT-4, and BERT",
+              "Hopfield network"
+            ],
+            "correct_answer": "ChatGPT, GPT-4, and BERT",
+            "explanation": "The article states, 'Many modern large language models such as ChatGPT, GPT-4, and BERT use this architecture [Transformer].'"
+          },
+          {
+            "question": "What is a common criticism of neural networks, particularly in robotics, regarding training data?",
+            "type": "short_answer",
+            "correct_answer": "They require too many training samples for real-world operation.",
+            "explanation": "The article states, 'A common criticism of neural networks, particularly in robotics, is that they require too many training samples for real-world operation.'"
+          },
+          {
+            "question": "What type of deep learning architecture, pioneered by Kunihiko Fukushima and Yann LeCun, became an essential tool for computer vision?",
+            "type": "short_answer",
+            "correct_answer": "Convolutional Neural Networks (CNNs)",
+            "explanation": "The article mentions, 'Deep learning architectures for convolutional neural networks (CNNs) with convolutional layers and downsampling layers and weight replication began with the Neocogitron introduced by Kunihiko Fukushima in 1979...' and 'CNNs have become an essential tool for computer vision.' Yann LeCun also created LeNet, a notable CNN."
+          }
+        ]
+      }
     },
-    {
-      "question": "Who was the most prominent ruler of the Kakatiya dynasty?",
-      "options": ["Prataparudra II", "Rudrama Devi", "Ganapati Deva", "Krishna Deva Raya"],
-      "answer": "Ganapati Deva",
-      "explanation": "Ganapati Deva was one of the most powerful Kakatiya rulers who expanded the empire significantly."
-    },
-    {
-      "question": "Which famous queen ruled the Kakatiya dynasty?",
-      "options": ["Rani Rudrama Devi", "Ahilyabai Holkar", "Raziyya Sultana", "Durgavati"],
-      "answer": "Rani Rudrama Devi",
-      "explanation": "Rani Rudrama Devi was one of the few female monarchs in Indian history, known for her military leadership."
-    },
-    {
-      "question": "Which empire defeated the Kakatiyas and ended their rule?",
-      "options": ["Delhi Sultanate", "Cholas", "Pandyas", "Vijayanagara Empire"],
-      "answer": "Delhi Sultanate",
-      "explanation": "The Delhi Sultanate under Alauddin Khalji's general Malik Kafur defeated the Kakatiyas in 1323 CE."
-    },
-    {
-      "question": "Which architectural marvel is associated with the Kakatiya dynasty?",
-      "options": ["Thousand Pillar Temple", "Meenakshi Temple", "Brihadeeswarar Temple", "Hampi Temples"],
-      "answer": "Thousand Pillar Temple",
-      "explanation": "The Thousand Pillar Temple in Hanamakonda, dedicated to Shiva, Vishnu, and Surya, is a prime example of Kakatiya architecture."
-    }
-  ]
-}
 
 
-
-# URL:
 - https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe
 
-# JSON API OUTPUT:
-
-{
-  "title": "Marvel Cinematic Universe",
-  "topic": "Marvel Superhero Films",
-  "questions": [
     {
-      "question": "Which studio created the Marvel Cinematic Universe (MCU)?",
-      "options": ["Warner Bros.", "Marvel Studios", "DC Films", "Universal Pictures"],
-      "answer": "Marvel Studios",
-      "explanation": "The MCU was produced by Marvel Studios, which is a subsidiary of Walt Disney Studios."
-    },
-    {
-      "question": "What was the first film released in the Marvel Cinematic Universe?",
-      "options": ["Iron Man", "The Incredible Hulk", "Captain America: The First Avenger", "Thor"],
-      "answer": "Iron Man",
-      "explanation": "Iron Man (2008) was the first MCU film and launched the interconnected franchise."
-    },
-    {
-      "question": "Who portrays Tony Stark in the MCU?",
-      "options": ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth"],
-      "answer": "Robert Downey Jr.",
-      "explanation": "Robert Downey Jr. plays Tony Stark, also known as Iron Man, across multiple MCU films."
-    },
-    {
-      "question": "What is the fictional organization that oversees superheroes in the MCU?",
-      "options": ["S.H.I.E.L.D.", "A.R.G.U.S.", "H.Y.D.R.A.", "Stark Industries"],
-      "answer": "S.H.I.E.L.D.",
-      "explanation": "S.H.I.E.L.D. (Strategic Homeland Intervention, Enforcement and Logistics Division) manages superhero operations."
-    },
-    {
-      "question": "Which film marked the beginning of the 'Infinity Saga' storyline?",
-      "options": ["Avengers: Infinity War", "The Avengers", "Iron Man", "Doctor Strange"],
-      "answer": "Iron Man",
-      "explanation": "The Infinity Saga begins with Iron Man (2008) and ends with Avengers: Endgame (2019)."
+      "id": 2,
+      "url": "https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe",
+      "title": "Marvel Cinematic Universe Quiz",
+      "date_generated": "2025-11-16T20:05:00Z",
+      "quiz": {
+        "summary": "The Marvel Cinematic Universe (MCU) is a highly successful American media franchise and shared universe of superhero films and series produced by Marvel Studios, based on Marvel Comics characters. Structured into \"Phases\" grouped into \"Sagas\" like \"The Infinity Saga\" and \"The Multiverse Saga,\" it began with *Iron Man* (2008). The franchise expanded from films to include television series (initially Marvel Television, later Marvel Studios for Disney+), short films, and other media. While commercially successful and critically acclaimed, recent \"Multiverse Saga\" projects have faced challenges, leading Disney to reduce content output and refocus on quality. The MCU's creation involved Marvel Entertainment's desire for artistic control, Kevin Feige's vision for a shared universe, and later, Disney's acquisition of 21st Century Fox, integrating characters like the X-Men and Fantastic Four. The franchise has evolved its continuity approach, with an official timeline book and the formal integration of some Marvel Television series into the \"Sacred Timeline.\"",
+        "questions": [
+          {
+            "question": "What was the first film released in the Marvel Cinematic Universe (MCU)?",
+            "type": "short_answer",
+            "correct_answer": "Iron Man (2008)",
+            "explanation": "The article states, \"The first MCU film, Iron Man (2008), began Phase One...\""
+          },
+          {
+            "question": "The first three phases of the MCU are collectively known as \"The Infinity Saga.\" What are the following three phases collectively known as?",
+            "type": "short_answer",
+            "correct_answer": "The Multiverse Saga",
+            "explanation": "The article mentions, \"...the first three phases collectively known as 'The Infinity Saga' and the following three phases as 'The Multiverse Saga'.\""
+          },
+          {
+            "question": "Who is credited with envisioning the shared universe concept for the MCU, combining characters in a way similar to Stan Lee and Jack Kirby's Marvel Comics?",
+            "type": "multiple_choice",
+            "options": [
+              "Avi Arad",
+              "Kevin Feige",
+              "Jon Favreau",
+              "Stan Lee"
+            ],
+            "correct_answer": "Kevin Feige",
+            "explanation": "The article states, \"Kevin Feige, Arad's second-in-command... envisioned combining these characters in a shared universe similar to the one created by Stan Lee and Jack Kirby for Marvel Comics in the 1960s.\""
+          },
+          {
+            "question": "Which major media company purchased Marvel Entertainment for $4 billion in December 2009?",
+            "type": "short_answer",
+            "correct_answer": "The Walt Disney Company",
+            "explanation": "The article states, \"In December 2009, the Walt Disney Company purchased Marvel Entertainment for $4 billion.\""
+          },
+          {
+            "question": "What was the first television series produced by Marvel Television for ABC, which expanded the MCU to network television in 2013?",
+            "type": "short_answer",
+            "correct_answer": "Agents of S.H.I.E.L.D.",
+            "explanation": "The article mentions, \"Marvel Television expanded the universe to network television with Agents of S.H.I.E.L.D. on ABC in 2013...\""
+          },
+          {
+            "question": "Which three major character groups had their film rights return to Marvel Studios following Disney's acquisition of assets from 21st Century Fox, finalized in March 2019?",
+            "type": "short_answer",
+            "correct_answer": "Deadpool, the X-Men, and the Fantastic Four",
+            "explanation": "The article states, \"This saw the return of the film rights for Deadpool, the X-Men, and the Fantastic Four to Marvel Studios...\""
+          },
+          {
+            "question": "What is the official designation for the main universe of MCU events, as referenced in *Doctor Strange in the Multiverse of Madness* and sharing a name with the main Marvel Comics universe?",
+            "type": "short_answer",
+            "correct_answer": "Earth-616",
+            "explanation": "The article states, \"In Doctor Strange in the Multiverse of Madness, the main universe of MCU events was designated as Earth-616...\""
+          },
+          {
+            "question": "Who made cameo appearances in almost all MCU feature films and television series, except *Inhumans*, until his death in 2018?",
+            "type": "short_answer",
+            "correct_answer": "Stan Lee",
+            "explanation": "The article mentions, \"Prior to his death in 2018, Stan Lee, the creator or co-creator of many of the characters adapted in the MCU, made cameo appearances in all of the feature films and television series except Inhumans.\""
+          }
+        ]
+      }
     }
   ]
-}
-
-
-
-- https://en.wikipedia.org/wiki/Marvel_Cinematic_Universe

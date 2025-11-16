@@ -79,7 +79,7 @@ Users can:
 | Backend  | FastAPI                   |
 | Database | SQLite / PostgreSQL       |
 | AI / LLM | LangChain + Google Gemini |
-| Language | Python 3.12+, Node.js 18+ |
+| Language | Python 3.11+, Node.js 18+ |
 
 
 # Author
