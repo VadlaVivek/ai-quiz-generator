@@ -11,11 +11,17 @@ app = FastAPI(title="AI Wiki Quiz Generator")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[
+        "http://localhost:5173",  # Local development
+        "http://localhost:3000",   # Alternative local port
+        "https://https://ai-quiz-generator-main-app.onrender.com.vercel.app",  # Your deployed frontend
+        "*"  # Keep wildcard as fallback
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 class URLInput(BaseModel):
     url: str
