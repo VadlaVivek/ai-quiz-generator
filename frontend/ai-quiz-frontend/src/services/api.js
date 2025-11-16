@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE || "http://127.0.0.1:8000";
+const API_BASE = import.meta.env.VITE_API_BASE || "https://ai-quiz-generator-backend-server-gdxn.onrender.com";
 
 export async function generateQuiz(url) {
   const res = await fetch(`${API_BASE}/generate_quiz`, {
