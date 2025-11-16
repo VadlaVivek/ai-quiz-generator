@@ -14,7 +14,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",  # Local development
         "http://localhost:3000",   # Alternative local port
-        "https://https://ai-quiz-generator-main-app.onrender.com.vercel.app",  # Your deployed frontend
+        "https://https://ai-quiz-generator-main-app.onrender.com",  # Your deployed frontend
         "*"  # Keep wildcard as fallback
     ],
     allow_credentials=True,
